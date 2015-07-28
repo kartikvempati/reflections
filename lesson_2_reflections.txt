@@ -14,4 +14,9 @@ that will be committed. The repository consists of the committed files already, 
 a log of them. The value of the staging area is that it allows each commit to 
 identify which file exactly changed.
 
+How can you use the sataging area to make sure have one commit per logical change?
 
+A: The git diff function can be used to determine what exactly changed between the 
+staging area and the working directory. That way you can add only the files 
+necessary for a logical change to commit. The staging area helps you remember the 
+changes you've made to files so you dont commit multiple logical changes. 
