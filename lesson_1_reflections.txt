@@ -1,0 +1,49 @@
+How did viewing a diff between two versions of a file help you see the bug that was
+introduced?
+
+A: Diff/FC showed what exactly changed between two versions of the same file. any
+differences are likely the cause of the error, if you knew that a previous version
+was operating as intended. 
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+A: Having complete access makes it easier to find out where and what causes an
+error to occur in lengthy codes. It will reduce debugging time from the magnitude of days and hours to hours and minutes (not literally, but just an example of the 
+magnitude of saved time)
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like when you do in GIT, vs having versions automatically save, like
+Google docs does?
+
+A: Manually saving with Git allows for more logical breaks between versions such 
+as added functionalities, bug fixes, and other corrections. Automatically saving 
+the files will result in more commmits, which could be nice, but less useful gits (
+some wont even compile as you may have been mid line). 
+
+Why do you think some version control systems, like Git, allow saving multiple 
+files in one commit, while others, like Google Docs, treat each file separately?
+
+A: The purpose of Google docs does not require the files to be updated together. 
+Google docs aren't expected to be interdependent, so updating all the files gets 
+redundant. Git, on the other hand, has to have saving multiple files in one 
+commit, as certain codes are dependent on others in the project. Changing one file
+has effects on all of them. 
+
+How can you use the commands git log and git diff to view the history of files?
+
+A: git log will provide a history of the commits with the commit ID, author, date,
+and a short description. Git log shows the rough history of what changed in the 
+file. git diff compares two different files and identifies which specific lines of
+code changed and to what. 
+
+How might using version control make you more confident to make changes that could
+break something?
+
+A: It's easier to be confident about making a change when that specific change is
+logged. There is a reference that will let you know what changes were made, thus 
+allowing you to figure out what change caused something to break. 
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+A: I want to use Git to help organize the list of files and programs I will be using in future courses (WEB DEVELOPMENT). 
