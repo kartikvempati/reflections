@@ -20,3 +20,11 @@ A: The git diff function can be used to determine what exactly changed between t
 staging area and the working directory. That way you can add only the files 
 necessary for a logical change to commit. The staging area helps you remember the 
 changes you've made to files so you dont commit multiple logical changes. 
+
+What are some situations when branches would be helpful in keeping your history 
+organized? How would branches help?
+
+A: Branches allow to have multiple versions of a final code such as different 
+languages. They also allow you to try experimental codes to add new features, or 
+develop very similar programs such as the same game with varying difficulty. 
+
