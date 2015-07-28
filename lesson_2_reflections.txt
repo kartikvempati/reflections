@@ -42,3 +42,8 @@ analyzing the original split point of the branch. We represent it in the diagram
 as hving two parents, because it can access the commits from both branches. We can
 delete the branch that was merged into the the other branch because we can easily 
 access commits from that branch, so it's not longer necessary. 
+
+What are the pros and cons of Git's automatic merging vs. always doing merges 
+manually?
+
+A: Git's automatic merging will always incorporate new codes and will generally remove commonly deleted code. If there are any conflicts, however, Git will report them and you will have to manually merge the code. When you commit the code, Git will acknowledge you have finished merging. 
