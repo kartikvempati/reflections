@@ -30,4 +30,15 @@ develop very similar programs such as the same game with varying difficulty.
 
 How do the diagrams help you visualize the branch structure?
 
-A: The diagrams show the reachable path of commits in a branch. If you 'git checkout' a commit, and start making changes on it, it will be detached, and the changes will not be invoked in its children commits. 
+A: The diagrams show the reachable path of commits in a branch. If you 'git 
+checkout' a commit, and start making changes on it, it will be detached, and the 
+changes will not be invoked in its children commits. 
+
+What is the result of merging two branches together? Why do we represent it in the
+diagram the way we do?
+
+A: Merging two branches together combines the changes between the two files by 
+analyzing the original split point of the branch. We represent it in the diagram 
+as hving two parents, because it can access the commits from both branches. We can
+delete the branch that was merged into the the other branch because we can easily 
+access commits from that branch, so it's not longer necessary. 
