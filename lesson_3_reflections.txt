@@ -8,4 +8,5 @@ tools and features, while I am working on my own features.
 
 Why might you want to always pull changes manually rather than having Git automatically stay up to date with your remote repository?
 
-A: As with merging, there may be conflicts that could be introduced by pulling from a remote repository (other people may  have editied)
+A: As with merging, there may be conflicts that could be introduced by pulling
+from a remote repository (other people may  have editied)
