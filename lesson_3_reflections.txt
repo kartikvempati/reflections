@@ -17,4 +17,9 @@ one instead of another?
 A: A fork is a tool that copies someone elses Github repository to your 
 repository, so you can make your changes without affecting the actual repository.
 A clone is a local copy of a github repository that can be edited and pushed back.
-A branch is a local tool that allows for multiple commits with the same parent commit, thus allowing new features and tools to be implemented without changing the master branch functionality. Fork is used to take someone elses Github repository and add to your own Github repository. Clone is used to work locally on a Github repository, and branch is used for experimental features that can be merged if successful with the stable branch which is developed alongside. 
+A branch is a local tool that allows for multiple commits with the same parent 
+commit, thus allowing new features and tools to be implemented without changing 
+the master branch functionality. Fork is used to take someone elses Github 
+repository and add to your own Github repository. Clone is used to work locally on 
+a Github repository, and branch is used for experimental features that can be 
+merged if successful with the stable branch which is developed alongside. 
