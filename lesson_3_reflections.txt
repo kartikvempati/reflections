@@ -1,1 +1,9 @@
-When would you 
+When would you want to use a remote repository rather than keeping all your work 
+local?
+
+A: If I want to make my local repository open to the public or to any of my 
+collaborators. This way, the repository can be updated by people working on other
+tools and features, while I am working on my own features. 
+
+
+
