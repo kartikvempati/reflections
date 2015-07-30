@@ -23,3 +23,8 @@ the master branch functionality. Fork is used to take someone elses Github
 repository and add to your own Github repository. Clone is used to work locally on 
 a Github repository, and branch is used for experimental features that can be 
 merged if successful with the stable branch which is developed alongside. 
+
+What is the benefit of having a copy of the last known state of the remote stored 
+locally?
+
+A: You can merge changes whenever when offline. 
