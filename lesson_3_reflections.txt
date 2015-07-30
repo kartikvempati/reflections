@@ -28,3 +28,12 @@ What is the benefit of having a copy of the last known state of the remote store
 locally?
 
 A: You can merge changes whenever when offline. 
+
+How woul dyou collaborate without using Git or GitHub? what would be easier, and 
+what would be harder?
+
+A: I would most likely have files being emailed back and forth or using dropbox or 
+google drive to store versions with folders. The files would be named with the 
+version number and so on. Making separate changes in collaboratoin with people 
+would be much harder without branches, and it would be extremely difficult to know 
+which versions are the most updated. 
