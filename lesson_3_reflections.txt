@@ -37,3 +37,11 @@ google drive to store versions with folders. The files would be named with the
 version number and so on. Making separate changes in collaboratoin with people 
 would be much harder without branches, and it would be extremely difficult to know 
 which versions are the most updated. 
+
+When would you want to make changes in a separate branch rather than directly in 
+master? What benefits does each approach have?
+
+A: Making a sepearate branch for changes is useful when working with collaborators
+on the same file, so that any changes to the master will be agreed upon by
+collaborators. However, making changes directly in master has the benefit of 
+allowing easier management as there is only one direct version to keep track of. 
